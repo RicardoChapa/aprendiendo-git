@@ -16,4 +16,7 @@ Agregar Archivos del S.Area al Rep.
     -git commit -m "Descripcion de cambios"
 
 Ver commit´s
-    -git log -Salir Q
+    -git log
+
+Ver Diferencias en W.A. vs Rep.
+    -git diff

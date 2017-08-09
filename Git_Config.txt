@@ -1,0 +1,13 @@
+Configurar Git
+
+Agregar Nombre
+    -git config --global user.name "My Name"
+
+Agregar Email
+    -git config --global user.email "My Email"
+
+Agregar Editor (opt)
+    -git config --global core.editor NombreEditorConsola
+
+ver Todo
+    - git config list
