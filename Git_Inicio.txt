@@ -1,0 +1,19 @@
+Iniciar Rep.Git
+    -git init
+
+*Tres Estados
+    - Working Directory  - Archivos nuevos,Sin cambios Or Sin Segimiento
+    - Stagin Area        - Archivos guardados y listos para agregar al Rep.
+    - .git (carpeta) Rep.- Todo lo guardado
+
+Ver el Estado del Rep.
+    -git status
+
+Agregar Archivo(Todo) al S.Area
+    -git add .\Archivo.txt (--a)
+
+Agregar Archivos del S.Area al Rep.
+    -git commit -m "Descripcion de cambios"
+
+Ver commit´s
+    -git log -Salir Q
