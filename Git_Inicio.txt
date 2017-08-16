@@ -18,5 +18,5 @@ Agregar Archivos del S.Area al Rep.
 Ver commit´s
     -git log
 
-Ver Diferencias en W.A. vs Rep.
+Ver Diferencias en W.D. vs Rep.
     -git diff
