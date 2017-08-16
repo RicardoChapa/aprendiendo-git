@@ -13,7 +13,10 @@ Agregar Archivo(Todo) al S.Area
     -git add .\Archivo.txt (--a)
 
 Agregar Archivos del S.Area al Rep.
-    -git commit -m "Descripcion de cambios"
+    -git commit -m "Descripcion de cambios" 
+    (se pude sin cerrar las comillas, 
+    enter y agregar el cuerpo del commit, 
+    cerrar comillas y enter)
 
 Ver commit´s
     -git log
