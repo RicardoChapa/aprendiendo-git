@@ -10,7 +10,7 @@ Ver el Estado del Rep.
     -git status
 
 Agregar Archivo(Todo) al S.Area
-    -git add .\Archivo.txt (--a)
+    -git add .\Archivo.txt (-A)
 
 Agregar Archivos del S.Area al Rep.
     -git commit -m "Descripcion de cambios" 
@@ -20,6 +20,12 @@ Agregar Archivos del S.Area al Rep.
 
 Agregar Archivos y cambios directo al commit (solo rasteables)
     -git commit -a -m
+
+Eliminar archivos rastreados del Rep. y W.D. de manera que no aparezcan la prox como archivos no rastreados.
+    -git rm .\Archivo.txt
+
+Renombrar archivos
+    -git vm Archivo.txt ArchivoRenombrado.txt
 
 Ver commit´s
     -git log
