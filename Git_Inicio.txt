@@ -18,6 +18,9 @@ Agregar Archivos del S.Area al Rep.
     enter y agregar el cuerpo del commit, 
     cerrar comillas y enter)
 
+Agregar Archivos y cambios directo al commit (solo rasteables)
+    -git commit -a -m
+
 Ver commit´s
     -git log
 
