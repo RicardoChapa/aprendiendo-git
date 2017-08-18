@@ -11,3 +11,6 @@ Agregar Editor (opt)
 
 ver Todo
     - git config list
+
+Crear alias
+    -git config --global alias.NombreAlias "log --oneline --decorate --all --graph"
