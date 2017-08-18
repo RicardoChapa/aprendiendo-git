@@ -25,7 +25,7 @@ Agregar Archivos y cambios directo al commit (solo rasteables)
     -git commit -a -m
 
 Eliminar archivos rastreados del Rep. y W.D. de manera que no aparezcan la prox como archivos no rastreados.
-    -git rm .\Archivo.txt
+    -git rm Archivo.txt
 
 Renombrar archivos
     -git vm Archivo.txt ArchivoRenombrado.txt
@@ -35,11 +35,17 @@ Ver commit´s
     (optional --oneline --graph OR 
     --pretty=format:"%h - %an,%ar : %s" / Filtrar Fecha (--after) or (--before) ="YYYY-MM-DD")
 
+Ver Todos commit´s
+    -git reflog (commit´s eliminados)
+
 Renombrar ultimo commit
     -git commit --amend -m "texto de remplazo"
 
-Eliminar ultimo commit
-    -git reset --soft HEAD^
+Viajar entre commit´s
+    -git reset --soft (HEAD^ (ultimo) OR NºCommit) (regresa al punto asignado SIN elimnar nada)
+    -git reset --mixed (regresa al punto asignado SOLO elimina commit´s)
+    -git reset --hard (regresa al punto asignado Eliminando TODO Desde punto E-B) *ver reflog
+    -* Si se pone un # hacia adelante hace la accion contraria.
 
 Ver rama actual
     -git branch
