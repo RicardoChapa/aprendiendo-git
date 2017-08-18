@@ -35,6 +35,12 @@ Ver commit´s
     (optional --oneline --graph OR 
     --pretty=format:"%h - %an,%ar : %s" / Filtrar Fecha (--after) or (--before) ="YYYY-MM-DD")
 
+Renombrar ultimo commit
+    -git commit --amend -m "texto de remplazo"
+
+Eliminar ultimo commit
+    -git reset --soft HEAD^
+
 Ver rama actual
     -git branch
 
