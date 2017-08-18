@@ -50,5 +50,27 @@ Viajar entre commit´s
 Ver rama actual
     -git branch
 
+Agregar de rama
+    -git branch NombreRama
+
+Cambiarse de rama
+    -git checkout NombreRama
+
+elimnar de rama
+    -git checkout -d NombreRama
+
+Combinar ramas
+    -git merge NombreRama_absorbida
+    -* estar parado sobre rama que absorbe
+
 Ver Diferencias en W.D. vs Rep.
     -git diff
+    - -   -  NombreRama1 NombreRama2
+
+Tags *notitas en los commit´s
+    Agregar
+    -git tag NombreTag
+    Lista
+    -git tag
+    Eliminar
+    -git tag -d NombreTag
