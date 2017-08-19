@@ -9,7 +9,7 @@ Actualzar Repositorio Local de GitHub
     -git Pull (Crea nuevo commit automatico si hay discrepancias entre repos.)
 
 Actualzar GitHub de Local
-    -git push -u origin master(recuerda nombre master, solo usar al principio) origin master
+    -git push -u origin master (-u recuerda nombre master, solo usar al principio)
 
 Subir tags
     -git push --tags
