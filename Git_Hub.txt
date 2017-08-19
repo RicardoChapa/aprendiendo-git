@@ -1,4 +1,15 @@
 Crear New Proyecto
 
-1- git remote add origin ruta.git
-2- git push -u origin master
+Agregar Repositorio de GitHub a Local
+    -git remote add origin ruta.git
+
+Actualzar Repositorio Local de GitHub
+    -git Fetch (pregunta los cambios ha hacer)
+    OR
+    -git Pull (Crea nuevo commit automatico si hay discrepancias entre repos.)
+
+Actualzar GitHub de Local
+    -git push -u origin master(recuerda nombre master, solo usar al principio) origin master
+
+Subir tags
+    -git push --tags
